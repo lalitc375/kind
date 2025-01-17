@@ -35,4 +35,4 @@ fi
 
 # Ensure we use a builder that can leverage it (the default on linux will not)
 docker buildx rm kind-builder || true
-docker buildx create --use --name=kind-builder
+docker buildx create --name=kind-builder
